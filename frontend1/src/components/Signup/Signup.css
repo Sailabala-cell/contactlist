@@ -1,0 +1,25 @@
+.container{
+    width:100%;
+    height:200px;
+    margin-top:-1px;
+     margin-bottom:300px;
+        font-size:30px;
+        background-position:center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+.flex_container{
+        border:1px solid gray;
+        width: 360px;
+        height: 420px;
+        padding: 60px; 
+        margin-top: 15px;
+        margin-left: 329px;
+        
+}
+.title{
+    text-align: center;
+    line-height:320px;
+    }
+    
+

@@ -1,0 +1,92 @@
+.logo-size{
+    height:80px;
+    width:80px;
+    z-index:100;
+}
+.App{
+    background: "url(/src/images/image.jpg)";
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: 'cover',
+}
+header{
+    padding:20px 0;
+  }
+  
+  header ul{
+    display:flex
+  }
+  header ul li{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    font-size: 20px;
+    
+  }
+  header ul li a{
+    font-weight: 900;
+    transition:0.5s
+  }
+  
+  header ul li a:hover{
+    color:lightpink
+  }
+  
+  /* .HeaderIcon{
+    margin-left: 20px;
+    transition:0.5s;
+  } */
+  
+  .navbar-items-icon {
+    color:#000;
+    display: none;
+  }
+  
+  header.active {
+    position:sticky;
+    top:0;
+    left:0;
+    background-color:white;
+    box-shadow: 0 2px 28px 0 rgba(0 0 0 /6%);
+    width:100%;
+    z-index:10;
+  }
+  
+  @media screen and (max-width:768px){
+   
+    .nav-links{
+      display:none
+    }
+    .nav-links-sidebar{
+      position:absolute;
+      display:block
+    }
+    .nav-links-sidebar {
+      position: absolute;
+      display:block;
+      background-color: green;
+      left:200px;
+      top:100px;
+      transition:0.5s;
+      width:50%; 
+      height:50vh; 
+      z-index:5;
+  }
+  .nav-links-sidebar{
+    display:flex;
+    flex-direction: column ;
+    margin-bottom:30px;
+    }
+    header ul li{
+      margin-bottom:30px;
+  }
+  .navbar-items-icon{
+    display:block;
+    position:absolute;
+    right:30px;
+    color:black;
+    border: 1px solid black;
+    padding:5px 10px;
+  }
+  }

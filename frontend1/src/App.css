@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+*{margin:0;
+padding:0;
+box-sizing:border-box;}
+body{
+  font-family: 'Chilanka', cursive;
+}
+.container{
+  max-width: 80%;
+  margin:auto;
+
+}
+.flex{
+  display:flex;
+  justify-content: space-between;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+.logo{
+  margin-left: -90px;
+}
+
+/* ...........header.......... */
+
+/* ...........header.......... */
